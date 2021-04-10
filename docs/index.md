@@ -1,3 +1,3 @@
 # Home
 
-Welkom to the kwatworks documentation
+Welkom to the kwatworks documentation.
