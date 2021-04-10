@@ -1,0 +1,14 @@
+site_name: KwatWorks
+
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
+  - attr_list
