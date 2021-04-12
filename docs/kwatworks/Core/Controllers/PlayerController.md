@@ -10,7 +10,6 @@ This controller controls all player objects in the game.
 
 ## Usage
 
-
 ## Properties
 
 ### `#!lua players` { data-toc-label="players" }
