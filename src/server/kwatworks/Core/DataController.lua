@@ -19,18 +19,19 @@ function DataController:Set(scope,key,value)
         DataController.dataStores[scope]:SetAsync(key, value)
     end)
      
-    if success == false then
+    if success  then
+    else
         print(error)
     end
 end
 
-function DataController:Get(scope,key,value)
-    local success, error = pcall(function()
-        DataController.dataStores[scope]:GetAsync(key)
+function DataController:Get(scope,key)
+    local success, data = pcall(function()
+        return DataController.dataStores[scope]:GetAsync(key)
     end)
      
-    if success == false then
-        print(error)
+    if success  then
+        return data
     end
 end
 
