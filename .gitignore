@@ -4,6 +4,8 @@
 
 
 site/
+/src/server/test
+/src/client/test.client.lua
 
 # Roblox Studio lock files
 /*.rbxlx.lock
