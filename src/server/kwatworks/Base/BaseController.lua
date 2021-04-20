@@ -1,4 +1,4 @@
-local BaseService = require(game.ServerScriptService.kwatworks.Base.BaseClass):extend()
+local BaseController = require(game.ServerScriptService.kwatworks.Base.BaseClass):extend()
 
 
-return BaseService
+return BaseController
