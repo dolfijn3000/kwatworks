@@ -6,8 +6,11 @@ function UIComponent:new()
     self.component = nil
 end
 
-
 function UIComponent:SetSize(xScale,xOffset,yScale,yOffset)
+    self.component.Size = UDim2.new(xScale,xOffset,yScale,yOffset)
+end
+
+function UIComponent:Add(xScale,xOffset,yScale,yOffset)
     self.component.Size = UDim2.new(xScale,xOffset,yScale,yOffset)
 end
 
