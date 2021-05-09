@@ -5,6 +5,7 @@ local Players = game:GetService("Players")
 
 local Player = require(game.ServerScriptService.kwatworks.Core.PlayerObject)
 local PlayerController = require(game.ServerScriptService.kwatworks.Core.PlayerController)
+game.Players.CharacterAutoLoads = false
 
 function JoinController:Activate(customFunction)
     Players.PlayerAdded:Connect(function(player)

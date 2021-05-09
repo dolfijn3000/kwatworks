@@ -11,7 +11,7 @@ function PlayerObject:new(playerInstance,name)
    self.ranks = RankController:GetPlayerRanks(playerInstance)
 
    --event binding
-   playerInstance.Chatted:Connect(function(message) CommandController:HandleEvent(playerInstance,message) end)
+   playerInstance.Chatted:Connect(function(message) CommandController:HandleEvent(self,message) end)
 end
 
 return PlayerObject
